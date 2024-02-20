@@ -3,8 +3,10 @@
   justify-content: center;
   width: 100%;
   height: 81px;
-  background: url(^assets/images/background-1.png), lightgrey 50% / cover no-repeat;
-  background-blend-mode: luminosity;
+  background-image: url(^assets/images/background-1.webp);
+  background-repeat: no-repeat;
+  background-position: 40% 0;
+  background-size: 130%;
 
   .header-navigation {
     margin: 24px 24px 0 24px;
@@ -39,7 +41,7 @@
           font-weight: 500;
 
           &:hover {
-            color: var(--purple);
+            color: #9D18FF;
           }
         }
 
