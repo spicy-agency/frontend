@@ -112,3 +112,95 @@
     }
   }
 }
+
+.about-us-and-done-work {
+  display: flex;
+  flex-direction: column;
+  background-image: url(^assets/images/background-1.webp);
+  background-repeat: no-repeat;
+  background-position: 40% 0;
+  background-size: 130%;
+
+  .about-us {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    margin-top: 8px;
+
+    .mouth-with-red-lips-and-arrow {
+      position: absolute;
+      top: 125px;
+
+      .mouth-with-red-lips {
+        width: 561px;
+        height: 563px;
+      }
+
+      &:before {
+        content: '';
+        position: absolute;
+        background-image: url(^assets/images/mouth-with-red-lips-arrow.png);
+        top: 285px;
+        left: 415px;
+        width: 176.36px;
+        height: 106.62px;
+        background-repeat: no-repeat;
+      }
+    }
+
+    .yes-we-are-cool {
+      font-size: 50px;
+      font-weight: 700;
+      font-family: Soyuz-Grotesk, sans-serif;
+      color: var(--purple);
+      line-height: 48.15px;
+      margin: 88px 0 0 75px;
+    }
+
+    .we-are-young-agency {
+      font-size: 24px;
+      line-height: 31.48px;
+      color: var(--text-black);
+      margin: 46px 0 0 551px;
+      letter-spacing: -1px;
+    }
+
+    .we-are-creative-agency {
+      font-size: 50px;
+      font-weight: 700;
+      font-family: Soyuz-Grotesk, sans-serif;
+      color: var(--purple);
+      line-height: 48.15px;
+      margin: 72px 0 0 504px;
+    }
+
+    .that-means {
+      font-size: 24px;
+      line-height: 31.48px;
+      color: var(--text-black);
+      margin: 44px 0 0 615px;
+      letter-spacing: -1px;
+    }
+
+    .we-will-take {
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 31.48px;
+      letter-spacing: -1px;
+      color: var(--text-black);
+      margin: 66px auto 0 auto;
+      text-align: center;
+    }
+
+    .you-will-receive-account {
+      font-size: 40px;
+      font-weight: 700;
+      font-family: Soyuz-Grotesk, sans-serif;
+      color: var(--purple);
+      line-height: 38.52px;
+      margin: 32px auto 69px auto;
+    }
+  }
+}
