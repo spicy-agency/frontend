@@ -1,0 +1,47 @@
+.tile-wrapper {
+  position: relative;
+  display: flex;
+  width: 420px;
+  height: 420px;
+
+  &:hover {
+    .cover {
+      display: flex;
+    }
+  }
+
+  .image {
+    z-index: 1;
+  }
+
+  .cover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8));
+
+    .description {
+      font-family: Soyuz-Grotesk, sans-serif;
+      font-size: 24px;
+      font-weight: 700;
+      line-height: 23.11px;
+      margin: 0 auto;
+      text-align: center;
+      color: #FFFFFF;
+    }
+
+    .look-at {
+      margin: 4px auto 0 auto;
+      line-height: 20.99px;
+      letter-spacing: -1px;
+      color: #FFFFFF;
+    }
+  }
+}
