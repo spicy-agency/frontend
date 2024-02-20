@@ -220,8 +220,8 @@
       color: var(--orange);
     }
 
-    div {
-      animation: running-text 15s linear infinite;
+    .sign-wrapper {
+      animation: running-text 10s linear infinite;
 
       .done-work-sign {
         position: absolute;
@@ -235,6 +235,10 @@
         letter-spacing: 3px;
         color: #FFFFFF;
         width: 160%;
+      }
+
+      &.second {
+        animation-delay: 5s;
       }
     }
   }
@@ -295,11 +299,12 @@
 }
 
 @keyframes running-text {
+  // width of translate should be equal to the width of the applied element on (160% for .done-work-sign)
   0% {
-    transform: translateX(100%);
+    transform: translateX(160%);
   }
 
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-160%);
   }
 }
