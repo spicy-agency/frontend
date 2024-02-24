@@ -92,4 +92,18 @@
            height="389">
     </div>
   </section>
+  <section class="q-and-a">
+    <h2 class="question-answer-header">(вопрос-ответ)</h2>
+    <ul class="question-answer-list">
+      <li *ngFor="let qa of questionsAndAnswers" class="question-answer-list-item">
+        <details class="details">
+          <summary class="summary">
+            <span class="question">{{qa.question}}</span>
+            <span class="open-close-qa-button"></span>
+          </summary>
+          <p class="answer">{{qa.answer}}</p>
+        </details>
+      </li>
+    </ul>
+  </section>
 </div>
