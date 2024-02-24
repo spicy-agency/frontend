@@ -1,0 +1,12 @@
+<a *ngIf="!isButton"
+   [href]="linkHref"
+   class="submit-application link"
+   [class.orange]="type === buttonType.Orange"
+   [class.white]="type === buttonType.White"
+   [class.orange-with-black]="type === buttonType.OrangeWithBlack"
+   [class.purple]="type === buttonType.Purple">
+  Оставить заявку
+</a>
+<button *ngIf="isButton" class="submit-application button" (click)="buttonClicked()">
+  Оставить заявку
+</button>

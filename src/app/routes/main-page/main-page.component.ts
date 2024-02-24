@@ -1,5 +1,8 @@
 import {Component} from '@angular/core';
 import {CaseTileModel} from '../../shared/models/case-tile.model';
+import {
+  SubmitApplicationButtonType
+} from '../../shared/components/submit-application-link-button/submit-application-link-button.component';
 
 @Component({
   selector: 'app-main-page',
@@ -27,4 +30,5 @@ export class MainPageComponent {
       link: '#',
     }
   ];
+  public readonly submitApplicationButtonType: typeof SubmitApplicationButtonType = SubmitApplicationButtonType;
 }
