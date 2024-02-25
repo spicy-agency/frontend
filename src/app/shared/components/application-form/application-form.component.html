@@ -1,0 +1,42 @@
+<div class="form-wrapper">
+  <div class="header-and-photo">
+    <h2 class="form-header">
+      заполните короткую заявку,<br/>и мы поможем превратить<br/>запрос в <span class="working-item">рабочую задачу</span>
+    </h2>
+    <div class="photo">
+      <div>
+        <img ngSrc="assets/images/girls-at-meetup.webp" width="2000" height="3000" alt="Три девушки">
+      </div>
+      <span>Ответим на заявку в<br/>течении 1 часа</span>
+    </div>
+  </div>
+  <form class="form" [formGroup]="form">
+    <div class="fields-and-button">
+      <div class="name-phone-email-button">
+        <input class="input form-input" type="text" placeholder="Ваше имя" formControlName="name">
+        <input class="input form-input" type="text" placeholder="Telegram или номер телефона" formControlName="telegramOrPhone">
+        <input class="input form-input" type="text" placeholder="Ваш e-mail" formControlName="email">
+        <submit-application-link-button [type]="submitApplicationButtonType.OrangeWithBlack"></submit-application-link-button>
+      </div>
+      <textarea class="textarea form-textarea"
+                placeholder="Расскажите кратко о задаче"
+                formControlName="textarea"></textarea>
+    </div>
+    <fieldset>
+      <legend>Вас заинтересовал:</legend>
+      <ul class="options-list">
+        <li class="option" *ngFor="let option of options">
+          <label [for]="option.id" class="option-label application-form-option">
+            <input class="input"
+                   formControlName="interested"
+                   type="radio"
+                   [id]="option.id"
+                   [value]="option.id">
+            <span class="custom-option"></span>
+            {{option.label}}
+          </label>
+        </li>
+      </ul>
+    </fieldset>
+  </form>
+</div>
