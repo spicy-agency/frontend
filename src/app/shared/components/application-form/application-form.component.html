@@ -16,7 +16,9 @@
         <input class="input form-input" type="text" placeholder="Ваше имя" formControlName="name">
         <input class="input form-input" type="text" placeholder="Telegram или номер телефона" formControlName="telegramOrPhone">
         <input class="input form-input" type="text" placeholder="Ваш e-mail" formControlName="email">
-        <submit-application-link-button [type]="submitApplicationButtonType.OrangeWithBlack"></submit-application-link-button>
+        <submit-application-link-button [type]="submitApplicationButtonType.OrangeWithBlack"
+                                        [isButton]="true">
+        </submit-application-link-button>
       </div>
       <textarea class="textarea form-textarea"
                 placeholder="Расскажите кратко о задаче"

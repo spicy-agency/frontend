@@ -29,7 +29,9 @@
     text-decoration: none;
   }
 
-  &.button {}
+  &.button {
+    cursor: pointer;
+  }
 
   &.orange {
     color: #FFFFFF;

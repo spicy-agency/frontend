@@ -7,6 +7,12 @@
    [class.purple]="type === buttonType.Purple">
   Оставить заявку
 </a>
-<button *ngIf="isButton" class="submit-application button" (click)="buttonClicked()">
+<button *ngIf="isButton"
+        class="submit-application button"
+        (click)="buttonClicked()"
+        [class.orange]="type === buttonType.Orange"
+        [class.white]="type === buttonType.White"
+        [class.orange-with-black]="type === buttonType.OrangeWithBlack"
+        [class.purple]="type === buttonType.Purple">
   Оставить заявку
 </button>
