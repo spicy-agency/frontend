@@ -5,7 +5,7 @@
     <h1 class="spicy-header">spicy</h1>
   </div>
   <div class="button-with-link">
-    <submit-application-link-button></submit-application-link-button>
+    <submit-application-link-button [linkHref]="'#application-form'"></submit-application-link-button>
   </div>
 </section>
 <div class="about-us-and-done-work-and-cases">
@@ -70,7 +70,7 @@
           <li class="reasons-list-item">Нерегулярный постинг</li>
           <li class="reasons-list-item">Неработающий таргетинг</li>
         </ul>
-        <submit-application-link-button [type]="submitApplicationButtonType.White"></submit-application-link-button>
+        <submit-application-link-button [type]="submitApplicationButtonType.White" [linkHref]="'#application-form'"></submit-application-link-button>
       </div>
     </div>
     <div class="description-eyes-polaroid-photo">
@@ -106,7 +106,7 @@
       </li>
     </ul>
   </section>
-  <section class="application-form">
+  <section class="application-form" id="application-form">
     <application-form></application-form>
   </section>
 </div>
