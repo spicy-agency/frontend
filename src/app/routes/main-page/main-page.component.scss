@@ -200,6 +200,7 @@
     }
 
     .sign-wrapper {
+      margin-right: -15px;
       animation: running-text 10s linear infinite;
 
       .done-work-sign {
@@ -217,6 +218,8 @@
       }
 
       &.second {
+        opacity: 0;
+        animation: running-text-2 10s linear infinite;
         animation-delay: 5s;
       }
     }
@@ -306,8 +309,8 @@
         position: absolute;
         width: 446px;
         height: 713px;
-        top: -77px;
-        left: 66px;
+        top: -75px;
+        left: 70px;
         z-index: 1;
       }
 
@@ -416,6 +419,7 @@
     flex-direction: column;
     width: 100%;
     margin: 19px 0 0 0;
+    padding-bottom: 60px;
 
     .question-answer-header {
       font-family: Inter, sans-serif;
@@ -489,6 +493,10 @@
   }
 }
 
+.application-form {
+  margin-top: -60px;
+}
+
 @keyframes running-text {
   // width of translate should be equal to the width of the applied element on (160% for .done-work-sign)
   0% {
@@ -497,5 +505,18 @@
 
   100% {
     transform: translateX(-160%);
+  }
+}
+
+@keyframes running-text-2 {
+  // width of translate should be equal to the width of the applied element on (160% for .done-work-sign)
+  0% {
+    transform: translateX(160%);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateX(-160%);
+    opacity: 1;
   }
 }
