@@ -8,105 +8,103 @@
     <submit-application-link-button [linkHref]="'#application-form'"></submit-application-link-button>
   </div>
 </section>
-<div class="about-us-and-done-work-and-cases">
-  <section class="about-us">
-    <div class="mouth-with-red-lips-and-arrow">
-      <img class="mouth-with-red-lips" ngSrc="assets/images/mouth-with-red-lips.webp" alt="Открытый рот с красной помадой на губах" width="536" height="564">
+<section class="about-us">
+  <div class="mouth-with-red-lips-and-arrow">
+    <img class="mouth-with-red-lips" ngSrc="assets/images/mouth-with-red-lips.webp" alt="Открытый рот с красной помадой на губах" width="536" height="564">
+  </div>
+  <h2 class="yes-we-are-cool">ну да, мы классные</h2>
+  <p class="we-are-young-agency">Мы молодое агентство, но мы уже успели<br/>покорить 10+ ниш с помощью креативного<br/>контента, смелых идей и нестандартных решений</p>
+  <span class="we-are-creative-agency">Мы креативное агентство</span>
+  <p class="that-means">Это значит, что мы разрабатываем стратегию,<br/>а затем соединяем маркетинг, дизайн, копирайтинг,<br/>видеопродакшн и сторителлинг, чтобы выстроить<br/>продающую историю вашего бренда</p>
+  <p class="we-will-take">Мы полностью возьмем продвижение в соц. сетях на себя.<br/>Вы получите не просто красиво упакованный аккаунт.</p>
+  <span class="you-will-receive-account">Вы получите аккаунт, который приносит прибыль</span>
+</section>
+<section class="done-work">
+  <span class="what-we-have-done">что мы сделали</span>
+  <div class="sign-wrapper">
+    <div class="done-work-sign">проделанная работа &nbsp;</div>
+  </div>
+  <div class="sign-wrapper second">
+    <div class="done-work-sign">проделанная работа</div>
+  </div>
+</section>
+<section class="cases">
+  <div class="description">
+    <p class="text">Мы считаем, что новый мир значительно расширил<br/>возможности для общения с людьми и развития<br/>бизнеса. Проекты, которые имеют реальное влияние,<br/>такие как платформа цифрового обучения, которую<br/>мы развивали для Innodom в Instagram и TikTok;<br/>развитие бренда PetLab, который позволил завоевать<br/>сердца владельцев различных домашних питомцев,<br/>и цифровая стратегия, которая помогла собрать<br/>амбициозных и креативных людей на одной площадке</p>
+    <a class="all-cases-link" href="#">Все кейсы →</a>
+  </div>
+  <ul class="case-list">
+    <li class="case-item" *ngFor="let tile of tiles">
+      <case-tile [src]="tile.src" [alt]="tile.alt" [description]="tile.description" [link]="tile.link"></case-tile>
+    </li>
+  </ul>
+</section>
+<section class="help">
+  <h2 class="who-we-can-help">
+    кому мы можем <span class="help-word">помочь</span>
+  </h2>
+  <div class="businesses-with-photos">
+    <img class="girl-and-bar-stool"
+         ngSrc="assets/images/nastya-and-bar-stool.webp"
+         alt="Девушка опирается на барный стул"
+         width="912"
+         height="1459">
+    <div class="photo-in-sunglasses-wrapper">
+      <img ngSrc="assets/images/nastya-photo-in-sunglasses.webp"
+           alt="Девушка в солнцезащитных очках"
+           class="photo-in-sunglasses"
+           height="1200" width="801">
     </div>
-    <h2 class="yes-we-are-cool">ну да, мы классные</h2>
-    <p class="we-are-young-agency">Мы молодое агентство, но мы уже успели<br/>покорить 10+ ниш с помощью креативного<br/>контента, смелых идей и нестандартных решений</p>
-    <span class="we-are-creative-agency">Мы креативное агентство</span>
-    <p class="that-means">Это значит, что мы разрабатываем стратегию,<br/>а затем соединяем маркетинг, дизайн, копирайтинг,<br/>видеопродакшн и сторителлинг, чтобы выстроить<br/>продающую историю вашего бренда</p>
-    <p class="we-will-take">Мы полностью возьмем продвижение в соц. сетях на себя.<br/>Вы получите не просто красиво упакованный аккаунт.</p>
-    <span class="you-will-receive-account">Вы получите аккаунт, который приносит прибыль</span>
-  </section>
-  <section class="done-work">
-    <span class="what-we-have-done">что мы сделали</span>
-    <div class="sign-wrapper">
-      <div class="done-work-sign">проделанная работа &nbsp;</div>
+    <div class="header-list-link">
+      <h3 class="businesses">
+        <span class="first-row">бизнесам,</span>
+        <span class="second-row">у которых</span>
+      </h3>
+      <ul class="reasons-list">
+        <li class="reasons-list-item">Нет соцсетей</li>
+        <li class="reasons-list-item">Неактивная аудитория</li>
+        <li class="reasons-list-item">Нет продаж даже при хорошем активе</li>
+        <li class="reasons-list-item">Плохой имидж</li>
+        <li class="reasons-list-item">Нет стратегии и единого стиля</li>
+        <li class="reasons-list-item">Нерегулярный постинг</li>
+        <li class="reasons-list-item">Неработающий таргетинг</li>
+      </ul>
+      <submit-application-link-button [type]="submitApplicationButtonType.White" [linkHref]="'#application-form'"></submit-application-link-button>
     </div>
-    <div class="sign-wrapper second">
-      <div class="done-work-sign">проделанная работа</div>
-    </div>
-  </section>
-  <section class="cases">
-    <div class="description">
-      <p class="text">Мы считаем, что новый мир значительно расширил<br/>возможности для общения с людьми и развития<br/>бизнеса. Проекты, которые имеют реальное влияние,<br/>такие как платформа цифрового обучения, которую<br/>мы развивали для Innodom в Instagram и TikTok;<br/>развитие бренда PetLab, который позволил завоевать<br/>сердца владельцев различных домашних питомцев,<br/>и цифровая стратегия, которая помогла собрать<br/>амбициозных и креативных людей на одной площадке</p>
-      <a class="all-cases-link" href="#">Все кейсы →</a>
-    </div>
-    <ul class="case-list">
-      <li class="case-item" *ngFor="let tile of tiles">
-        <case-tile [src]="tile.src" [alt]="tile.alt" [description]="tile.description" [link]="tile.link"></case-tile>
-      </li>
-    </ul>
-  </section>
-  <section class="help">
-    <h2 class="who-we-can-help">
-      кому мы можем <span class="help-word">помочь</span>
-    </h2>
-    <div class="businesses-with-photos">
-      <img class="girl-and-bar-stool"
-           ngSrc="assets/images/nastya-and-bar-stool.webp"
-           alt="Девушка опирается на барный стул"
-           width="912"
-           height="1459">
-      <div class="photo-in-sunglasses-wrapper">
-        <img ngSrc="assets/images/nastya-photo-in-sunglasses.webp"
-             alt="Девушка в солнцезащитных очках"
-             class="photo-in-sunglasses"
-             height="1200" width="801">
-      </div>
-      <div class="header-list-link">
-        <h3 class="businesses">
-          <span class="first-row">бизнесам,</span>
-          <span class="second-row">у которых</span>
-        </h3>
-        <ul class="reasons-list">
-          <li class="reasons-list-item">Нет соцсетей</li>
-          <li class="reasons-list-item">Неактивная аудитория</li>
-          <li class="reasons-list-item">Нет продаж даже при хорошем активе</li>
-          <li class="reasons-list-item">Плохой имидж</li>
-          <li class="reasons-list-item">Нет стратегии и единого стиля</li>
-          <li class="reasons-list-item">Нерегулярный постинг</li>
-          <li class="reasons-list-item">Неработающий таргетинг</li>
-        </ul>
-        <submit-application-link-button [type]="submitApplicationButtonType.White" [linkHref]="'#application-form'"></submit-application-link-button>
-      </div>
-    </div>
-    <div class="description-eyes-polaroid-photo">
-      <p class="description">
-        Нам нравится работать с клиентом, а не просто продавать рабочие схемы.<br/>
-        <span class="follow-standards">Следовать стандартам? Нет. Создавать их? ДА!</span> К каждому заказчику вся<br/>
-        команда подходит индивидуально, оценивая с разных сторон, какие<br/>
-        методы лучше применить, внося в них изюминку самого клиента.
-      </p>
-      <img class="eyes"
-           ngSrc="assets/images/eyes.png"
-           alt="Глаза"
-           width="425"
-           height="161">
-      <img class="polaroid-photo"
-           ngSrc="assets/images/polaroid.png"
-           alt="Фотография на Полароид"
-           width="322"
-           height="389">
-    </div>
-  </section>
-  <section class="q-and-a">
-    <h2 class="question-answer-header">(вопрос-ответ)</h2>
-    <ul class="question-answer-list">
-      <li *ngFor="let qa of questionsAndAnswers" class="question-answer-list-item">
-        <details class="details">
-          <summary class="summary">
-            <span class="question">{{qa.question}}</span>
-            <span class="open-close-qa-button"></span>
-          </summary>
-          <p class="answer">{{qa.answer}}</p>
-        </details>
-      </li>
-    </ul>
-  </section>
-</div>
+  </div>
+  <div class="description-eyes-polaroid-photo">
+    <p class="description">
+      Нам нравится работать с клиентом, а не просто продавать рабочие схемы.<br/>
+      <span class="follow-standards">Следовать стандартам? Нет. Создавать их? ДА!</span> К каждому заказчику вся<br/>
+      команда подходит индивидуально, оценивая с разных сторон, какие<br/>
+      методы лучше применить, внося в них изюминку самого клиента.
+    </p>
+    <img class="eyes"
+         ngSrc="assets/images/eyes.png"
+         alt="Глаза"
+         width="425"
+         height="161">
+    <img class="polaroid-photo"
+         ngSrc="assets/images/polaroid.png"
+         alt="Фотография на Полароид"
+         width="322"
+         height="389">
+  </div>
+</section>
+<section class="q-and-a">
+  <h2 class="question-answer-header">(вопрос-ответ)</h2>
+  <ul class="question-answer-list">
+    <li *ngFor="let qa of questionsAndAnswers" class="question-answer-list-item">
+      <details class="details">
+        <summary class="summary">
+          <span class="question">{{qa.question}}</span>
+          <span class="open-close-qa-button"></span>
+        </summary>
+        <p class="answer">{{qa.answer}}</p>
+      </details>
+    </li>
+  </ul>
+</section>
 <section class="application-form" id="application-form">
   <application-form></application-form>
 </section>
