@@ -1,0 +1,182 @@
+.footer-wrapper {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 387px;
+  padding: 111px 75px 0;
+  background-image: url(^assets/images/girls-sitting.webp);
+  background-repeat: no-repeat;
+  background-position: 0 30%;
+  background-size: cover;
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 2;
+    background-color: #000000;
+    opacity: 0.85;
+  }
+
+  .about-us-spicy-social-media {
+    z-index: 3;
+    display: flex;
+
+    .about-us-spicy {
+      display: flex;
+      flex-direction: column;
+      min-width: 188px;
+
+      .know-about-us {
+        font-size: 18px;
+        line-height: 21.78px;
+        color: var(--orange);
+        margin: 13px 0 4px;
+      }
+
+      .look-at-our-cases,
+      .what-we-can-do-for-you,
+      .who-are-we,
+      .how-find-us {
+        font-size: 12px;
+        line-height: 14.52px;
+        color: #F6F6F6;
+        text-decoration: none;
+
+        &:hover {
+          color: var(--orange);
+        }
+      }
+
+      .look-at-our-cases,
+      .who-are-we {
+        margin-bottom: 8px;
+      }
+
+      .spicy {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 21.78px;
+        color: var(--purple);
+        margin: 16px 0 5px;
+      }
+
+      .privacy-policy {
+        font-size: 10px;
+        line-height: 12.1px;
+        color: #5F5F5F;
+        margin-top: 48px;
+      }
+    }
+
+    .social-media-links {
+      display: flex;
+      flex-direction: column;
+      margin: 32px 23px 0 127px;
+
+      .link-item {
+        position: relative;
+        width: 52.3px;
+        height: 52.3px;
+
+        .link {
+          position: absolute;
+          top: 0;
+          right: 0;
+          bottom: 0;
+          left: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          &:hover {
+            svg path {
+              fill: #FF7840;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .spicy-logo-wrapper {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+
+    &:before,
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      display: block;
+      width: 2px;
+      height: 215px;
+      background-color: #2F2F2F;
+    }
+
+    &:before {
+      left: 0;
+    }
+
+    &:after {
+      right: 0;
+    }
+
+    .spicy-logo {
+      width: 276px;
+      height: 129px;
+      margin: 50px 24px 55px;
+    }
+
+    .all-right-reserved {
+      font-size: 12px;
+      line-height: 18px;
+      color: #999999;
+      text-align: center;
+    }
+  }
+
+  .contacts-wrapper {
+    z-index: 3;
+    margin: 0 0 0 24px;
+
+    .contacts-header {
+      font-weight: 600;
+      font-size: 40px;
+      line-height: 48.41px;
+      color: #F6F6F6;
+      margin-bottom: 8px;
+    }
+
+    .juridical-info,
+    .juridical-address,
+    .phone-and-email {
+      font-size: 14px;
+      line-height: 16.94px;
+      color: #F6F6F6;
+    }
+
+    .juridical-info,
+    .juridical-address {
+      margin-bottom: 15px;
+    }
+
+    .phone-and-email {
+      a {
+        color: #F6F6F6;
+        text-decoration: none;
+
+        &:hover {
+          color: var(--orange);
+        }
+      }
+    }
+  }
+}
