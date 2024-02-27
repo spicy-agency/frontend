@@ -4,7 +4,7 @@ import {LayoutComponent} from './layout.component';
 import {HeaderComponent} from './header/header.component';
 import {FooterComponent} from './footer/footer.component';
 import {MainComponent} from './main/main.component';
-import {RouterOutlet} from '@angular/router';
+import {RouterLinkActive, RouterOutlet} from '@angular/router';
 
 const importsExports: any[] = [
   LayoutComponent,
@@ -14,10 +14,11 @@ const importsExports: any[] = [
 ];
 
 @NgModule({
-  imports: [
-    SharedModule,
-    RouterOutlet,
-  ],
+	imports: [
+		SharedModule,
+		RouterOutlet,
+		RouterLinkActive,
+	],
   declarations: [
     ...importsExports,
   ],
