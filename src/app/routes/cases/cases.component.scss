@@ -1,0 +1,206 @@
+.section-show-us-cases {
+  position: relative;
+  display: flex;
+
+  .text {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    margin: 54px 0 0 75px;
+
+    .show-us-cases {
+      display: flex;
+      flex-direction: column;
+
+      .show-us {
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 38.73px;
+        letter-spacing: 1px;
+        color: var(--orange);
+      }
+
+      .cases {
+        margin-top: -50px;
+        font-family: Soyuz-Grotesk, sans-serif;
+        font-weight: 700;
+        font-size: 200px;
+        line-height: 192.6px;
+        letter-spacing: 3px;
+        color: #FFFFFF;
+      }
+    }
+
+    .why-some-companies-works,
+    .shorten-the-pass-and-dream {
+      font-size: 24px;
+      line-height: 31.48px;
+      letter-spacing: -1px;
+      color: #FFFFFF;
+    }
+
+    .why-some-companies-works {
+      margin-top: 45px;
+    }
+
+    .shorten-the-pass-and-dream {
+      margin: 40px 0 32px;
+    }
+
+    .we-have-what-to-tell-about {
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 38.73px;
+      letter-spacing: 1px;
+      color: var(--orange);
+      margin: 40px 0 24px;
+    }
+  }
+
+  .four-girls {
+    position: absolute;
+    top: 15px;
+    left: 640px;
+    z-index: 1;
+    width: 620px;
+    height: 805px;
+  }
+}
+
+.cases-tiles {
+  display: flex;
+
+  .cases-tiles-list {
+    list-style: none;
+    display: flex;
+  }
+}
+
+.if-its-not-enough-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  .if-its-not-enough {
+    margin: 46px 0 0 75px;
+    font-family: Soyuz-Grotesk, sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 96.3px;
+    letter-spacing: 3px;
+    color: #FFFFFF;
+  }
+
+  .our-team-has-vast-experience {
+    margin: 16px 0 0 75px;
+    font-size: 24px;
+    line-height: 31.48px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+  }
+
+  .companies-list {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 50px 112px;
+
+    .companies-list-item {
+      font-size: 24px;
+      line-height: 31.48px;
+      letter-spacing: -1px;
+      color: #FFFFFF;
+
+      &::marker {
+        color: var(--orange);
+      }
+
+      .name {
+        color: var(--orange);
+      }
+    }
+  }
+
+  .banana {
+    position: absolute;
+    top: 15px;
+    left: 970px;
+    height: 600px;
+    width: 337px;
+    transform: rotate(-32.87deg);
+  }
+}
+
+.with-us-for-love-section {
+  position: relative;
+  display: flex;
+  padding-bottom: 45px;
+
+  .with-us-for-love {
+    position: absolute;
+    top: -32px;
+    left: 563px;
+    display: flex;
+    flex-direction: column;
+
+    .first-row,
+    .second-row {
+      font-family: Soyuz-Grotesk, sans-serif;
+      font-weight: 700;
+      font-size: 100px;
+      line-height: 96.3px;
+      letter-spacing: 3px;
+      color: var(--orange);
+    }
+
+    .second-row {
+      margin: -30px 0 0 155px;
+    }
+  }
+
+  .review-1 {
+    //width: 390px;
+    //height: 627px;
+    width: 320px;
+    height: 525px;
+    margin: 0 0 0 20px;
+  }
+
+  .review-2 {
+    //width: 315px;
+    //height: 425px;
+    width: 275px;
+    height: 383px;
+    margin: 245px 0 0 10px;
+  }
+
+  .review-3-and-4-wrapper {
+    display: flex;
+    flex-direction: column;
+    margin: 185px 0 0 20px;
+
+    .review-3 {
+      //width: 268px;
+      //height: 200px;
+      width: 225px;
+      height: 211px;
+      margin-bottom: 20px;
+    }
+
+    .review-4 {
+      //width: 318px;
+      //height: 198px;
+      width: 285px;
+      height: 195px;
+    }
+  }
+
+  .review-5 {
+    //width: 401px;
+    //height: 291px;
+    //margin: 228px 0 0 15px;
+    width: 280px;
+    height: 258px;
+    margin: 251px 0 0 15px;
+  }
+}

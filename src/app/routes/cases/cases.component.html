@@ -1,0 +1,60 @@
+<section class="section-show-us-cases">
+  <div class="text">
+    <h2 class="show-us-cases">
+      <span class="show-us">а покажите нам</span>
+      <span class="cases">кейсы</span>
+    </h2>
+    <p class="why-some-companies-works">
+      Почему какие-то компании работают 10 лет, но не<br/>особо двигаются в своем развитии и узнаваемости на<br/>рынке? А кто-то быстро выстреливает и становится<br/>востребованным?
+    </p>
+    <p class="shorten-the-pass-and-dream">Сократить путь к успеху и достижениям мечты<br/>помогают сильные концепты, которые основаны на<br/>авторском стиле. Когда развито креативно мышление,<br/>что-то переключается, и уже не вы выбираете<br/>клиента, а он вас</p>
+    <submit-application-link-button [linkHref]="'/cases#application-form'"></submit-application-link-button>
+    <p class="we-have-what-to-tell-about">Нам есть, о чем рассказать</p>
+  </div>
+  <img class="four-girls"
+       ngSrc="assets/images/four-girls-cases.webp"
+       alt="Четыре девушки"
+       width="636"
+       height="815">
+</section>
+<section class="cases-tiles">
+  <ul class="cases-tiles-list">
+    <div *ngFor="let row of (tiles.slice(0, numberTilesOnPage / maxTilesInRow)); let rowIndex = index">
+      <li class="case-tile-list-item" *ngFor="let tile of tiles.slice(rowIndex * maxTilesInRow, rowIndex * maxTilesInRow + maxTilesInRow)">
+        <case-tile [src]="tile.src" [alt]="tile.alt" [description]="tile.description" [link]="tile.link"></case-tile>
+      </li>
+    </div>
+  </ul>
+</section>
+<section class="if-its-not-enough-section">
+  <h2 class="if-its-not-enough">если этого мало</h2>
+  <p class="our-team-has-vast-experience">
+    За плечами нашей команды проекты абсолютно разных сфер.<br/>В разное время мы также сотрудничали с такими компаниями как:
+  </p>
+  <ul class="companies-list">
+    <li class="companies-list-item"><span class="name">Event.Tochka</span> — агентство по организации детских праздников;</li>
+    <li class="companies-list-item"><span class="name">Only Food</span> — кафе быстрого питания;</li>
+    <li class="companies-list-item"><span class="name">7 КАРАТ (г.Жлобин)</span> — сеть ювелирных украшений;</li>
+    <li class="companies-list-item"><span class="name">PEPITA</span> — магазин нижнего белья;</li>
+    <li class="companies-list-item"><span class="name">Автоподбор</span> — помощь экспертов при покупке автомобиля;</li>
+    <li class="companies-list-item"><span class="name">Zlato Solnce</span> — натуральные масла холодного отжима;</li>
+    <li class="companies-list-item"><span class="name">Arabesk</span> — учебно-культурный центр иностранных языков</li>
+  </ul>
+  <img class="banana" ngSrc="assets/images/banana.webp" width="1688" height="3000" alt="банан наполовину без кожуры">
+</section>
+<section class="with-us-for-love-section">
+  <h2 class="with-us-for-love">
+    <span class="first-row">с нами —</span>
+    <span class="second-row">по любви</span>
+  </h2>
+  <img class="review-1" ngSrc="assets/images/1-review.png" width="809" height="1327" alt="отзыв №1">
+  <img class="review-2" ngSrc="assets/images/2-review.png" width="914" height="1273" alt="отзыв №2">
+  <div class="review-3-and-4-wrapper">
+    <img class="review-3" ngSrc="assets/images/3-review.png" width="912" height="854" alt="отзыв №3">
+    <img class="review-4" ngSrc="assets/images/4-review.png" width="1017" height="694" alt="отзыв №4">
+  </div>
+  <img class="review-5" ngSrc="assets/images/5-review.png" width="797" height="734" alt="отзыв №5">
+</section>
+<section class="application-form" id="application-form">
+  <application-form></application-form>
+</section>

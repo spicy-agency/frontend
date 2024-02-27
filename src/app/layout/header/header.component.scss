@@ -40,8 +40,12 @@
           &:hover {
             color: #9D18FF;
           }
-        }
 
+          &.active-link {
+            cursor: auto;
+            color: #9D18FF;
+          }
+        }
 
         &:last-child {
           margin-right: 36px;

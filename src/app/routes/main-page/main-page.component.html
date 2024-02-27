@@ -34,7 +34,7 @@
     <a class="all-cases-link" href="#">Все кейсы →</a>
   </div>
   <ul class="case-list">
-    <li class="case-item" *ngFor="let tile of tiles">
+    <li class="case-item" *ngFor="let tile of tiles.slice(0, 3)">
       <case-tile [src]="tile.src" [alt]="tile.alt" [description]="tile.description" [link]="tile.link"></case-tile>
     </li>
   </ul>
