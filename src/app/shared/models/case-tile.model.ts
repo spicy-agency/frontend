@@ -5,4 +5,5 @@ export interface CaseTileModel {
   link: string;
   width?: number;
   height?: number;
+  id?: string;
 }
