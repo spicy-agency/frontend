@@ -8,7 +8,19 @@ import {tiles} from '../../shared/data/tiles.data';
   styleUrls: ['./cases.component.scss'],
 })
 export class CasesComponent {
-  public tiles: CaseTileModel[] = tiles;
+  private readonly tilesOrder: string[] = [
+    'innodom',
+    'kub',
+    'visa-global',
+    'petlab',
+    'station',
+    'gusarov',
+    'dev-place',
+    'golden-shark',
+    'overone',
+  ];
+  // @ts-ignore
+  public tiles: CaseTileModel[] = this.tilesOrder.map((id: string) => tiles.find((tile: CaseTileModel) => tile.id === id));
   public numberTilesOnPage: number = 9;
   public maxTilesInRow: number = 3;
 }
