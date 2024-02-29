@@ -10,8 +10,10 @@
     margin: 54px 0 0 75px;
 
     .show-us-cases {
+      position: relative;
       display: flex;
       flex-direction: column;
+      margin-bottom: 162px;
 
       .show-us {
         font-weight: 500;
@@ -22,11 +24,12 @@
       }
 
       .cases {
-        margin-top: -74px;
+        position: absolute;
+        top: -10px;
         font-family: Soyuz-Grotesk, sans-serif;
         font-weight: 700;
         font-size: 200px;
-        //line-height: 192.6px;
+        line-height: 192.6px;
         letter-spacing: 3px;
         color: #FFFFFF;
       }
@@ -41,7 +44,7 @@
     }
 
     .why-some-companies-works {
-      margin-top: 45px;
+
     }
 
     .shorten-the-pass-and-dream {
