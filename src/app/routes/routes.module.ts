@@ -6,6 +6,7 @@ import {CommonModule} from '@angular/common';
 import {BrowserModule} from '@angular/platform-browser';
 import {MainPageComponent} from './main-page/main-page.component';
 import {CasesComponent} from './cases/cases.component';
+import {ServicesComponent} from './services/services.component';
 
 const routes: Routes = [
   {
@@ -19,6 +20,10 @@ const routes: Routes = [
       {
         path: 'cases',
         component: CasesComponent,
+      },
+      {
+        path: 'services',
+        component: ServicesComponent,
       },
       {
         path: '**',
@@ -38,6 +43,7 @@ const routes: Routes = [
   declarations: [
     MainPageComponent,
     CasesComponent,
+    ServicesComponent,
   ],
   exports: [
     RouterModule,

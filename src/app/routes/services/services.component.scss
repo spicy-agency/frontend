@@ -1,0 +1,288 @@
+.our-services-section {
+  position: relative;
+  display: flex;
+  overflow: hidden;
+
+  .text {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0 0 75px;
+
+    .our-services {
+      font-weight: 600;
+      font-size: 100px;
+      line-height: 90px;
+      color: #FFFFFF;
+
+      .first,
+      .second {
+        font-weight: 700;
+        font-family: Soyuz-Grotesk, sans-serif;
+        letter-spacing: 5px;
+      }
+
+      .second {
+        color: var(--orange);
+      }
+    }
+
+    .low-level {
+      font-size: 24px;
+      letter-spacing: -1px;
+      color: #FFFFFF;
+      line-height: 31.48px;
+      margin: 30px 0 48px;
+    }
+
+    .submit-button {
+      margin-bottom: 50px;
+    }
+  }
+
+  .girls-looking-at-phone {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    z-index: 1;
+    width: 576px;
+    height: 1110px;
+  }
+}
+
+.our-principles {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  background-color: #FFFFFF;
+  border-radius: 50px;
+
+  .disco-ball {
+    position: absolute;
+    right: 5px;
+    top: -300px;
+    z-index: 2;
+    width: 434px;
+    height: 484px;
+  }
+
+  .header {
+    position: relative;
+    z-index: 2;
+    font-family: Soyuz-Grotesk, sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 96.3px;
+    letter-spacing: 3px;
+    color: var(--orange);
+    margin: 38px 0 48px 79px;
+  }
+
+  .principles-list {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    margin: 0 75px 61px 75px;
+
+    .row {
+      display: flex;
+      justify-content: space-between;
+
+      &.first-row {
+        margin-bottom: 32px;
+      }
+
+      .list-item {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+        box-shadow: 0 0 25px 1px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+
+        .item-header {
+          font-weight: 500;
+          font-size: 24px;
+          line-height: 29.05px;
+          color: var(--text-black);
+          margin: 24px 0 8px 16px;
+        }
+
+        .item-description {
+          margin: 0 0 27px 16px;
+          line-height: 20.99px;
+          letter-spacing: -1px;
+          color: var(--text-black);
+        }
+
+        .number {
+          position: absolute;
+          top: 16px;
+          right: 23px;
+          font-family: Soyuz-Grotesk, sans-serif;
+          font-size: 30px;
+          line-height: 28.89px;
+          letter-spacing: 3px;
+          color: var(--purple);
+        }
+      }
+    }
+  }
+
+  .ellipse-purple {
+    position: absolute;
+    bottom: 0;
+    left: 309px;
+    width: 875px;
+    z-index: 1;
+    opacity: 0.8;
+  }
+}
+
+.lets-get-to-know-each-other-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  .list-of-words {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    margin: 48px 75px 72px;
+    border-bottom: 1px solid #FFFFFF;
+    list-style: none;
+
+    .words-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 9px;
+
+      .word-item {
+        font-size: 20px;
+        line-height: 23.5px;
+        color: #939393;
+
+        &.with-white-ellipse,
+        &.with-orange-ellipse {
+          padding: 10.5px 45px 14.5px;
+          font-family: Soyuz-Grotesk, sans-serif;
+          font-weight: 700;
+          font-size: 24px;
+          line-height: 28.2px;
+          border: 1px solid;
+          border-radius: 75px;
+        }
+
+        &.with-white-ellipse {
+          border-color: #FFFFFF;
+          color: #FFFFFF;
+
+          &:hover {
+            border-color: var(--orange);
+            color: var(--orange);
+          }
+        }
+      }
+
+      &.words-1-row {
+        margin-right: 19px;
+      }
+
+      &.words-2-row {
+        margin-left: 61px;
+      }
+
+      &.words-3-row {
+        margin-right: 83px;
+      }
+
+      &.words-4-row {
+        margin-right: 45px;
+        margin-left: 39px;
+      }
+
+      &.words-5-row {
+        margin-left: 16px;
+      }
+
+      &.words-6-row {
+        margin: 0 -13px 24px 45px;
+      }
+    }
+  }
+
+  .ellipse-orange {
+    position: absolute;
+    top: -330px;
+    left: 0;
+    z-index: 1;
+  }
+
+  .text-and-photo {
+    position: relative;
+    display: flex;
+    z-index: 2;
+
+    .text {
+      display: flex;
+      flex-direction: column;
+      margin-left: 75px;
+
+      .lets-get-to-know-each-other {
+        font-family: Soyuz-Grotesk, sans-serif;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 77.04px;
+        letter-spacing: 3px;
+        color: #FFFFFF;
+        margin-bottom: 16px;
+
+        span {
+          color: var(--purple);
+        }
+      }
+
+      .you-can-use {
+        font-size: 24px;
+        line-height: 31.48px;
+        letter-spacing: -1px;
+        color: #FFFFFF;
+
+        span {
+          color: var(--orange);
+          text-decoration: underline;
+        }
+      }
+
+      .actions-list {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 40px 40px;
+
+        .action-item {
+          font-size: 24px;
+          line-height: 31.48px;
+          letter-spacing: -1px;
+          color: #FFFFFF;
+        }
+      }
+    }
+
+    .girls {
+      position: absolute;
+      top: -50px;
+      right: 28px;
+    }
+
+    .hand-with-magnifier {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+    }
+  }
+}
