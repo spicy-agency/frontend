@@ -7,6 +7,7 @@ import {BrowserModule} from '@angular/platform-browser';
 import {MainPageComponent} from './main-page/main-page.component';
 import {CasesComponent} from './cases/cases.component';
 import {ServicesComponent} from './services/services.component';
+import {AboutUsComponent} from './about-us/about-us.component';
 
 const routes: Routes = [
   {
@@ -24,6 +25,10 @@ const routes: Routes = [
       {
         path: 'services',
         component: ServicesComponent,
+      },
+      {
+        path: 'about-us',
+        component: AboutUsComponent,
       },
       {
         path: '**',
@@ -44,6 +49,7 @@ const routes: Routes = [
     MainPageComponent,
     CasesComponent,
     ServicesComponent,
+    AboutUsComponent,
   ],
   exports: [
     RouterModule,

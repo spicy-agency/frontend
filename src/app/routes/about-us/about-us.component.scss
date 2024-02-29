@@ -1,0 +1,192 @@
+.who-are-that-spicy-section {
+  position: relative;
+  display: flex;
+
+  .text {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    margin: 71px 0 34px 78px;
+
+    .who-are-that-spicy {
+      position: relative;
+      margin-bottom: 174px;
+
+      .who-are-that {
+        position: relative;
+        z-index: 2;
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 38.73px;
+        letter-spacing: 1px;
+        color: var(--orange);
+      }
+
+      .spicy {
+        position: absolute;
+        top: -8px;
+        left: 0;
+        z-index: 1;
+        font-family: Soyuz-Grotesk, sans-serif;
+        font-weight: 700;
+        font-size: 200px;
+        line-height: 192.6px;
+        letter-spacing: 3px;
+        color: #FFFFFF;
+      }
+    }
+
+    .any-business {
+      font-size: 24px;
+      line-height: 31.48px;
+      letter-spacing: -1px;
+      color: #FFFFFF;
+
+      span {
+        color: var(--orange);
+      }
+    }
+  }
+
+  .photo-and-link {
+    position: absolute;
+    left: 430px;
+    z-index: 1;
+
+    .three-girls {
+      position: absolute;
+      z-index: 1;
+      top: -82px;
+      left: 183px;
+    }
+
+    .blot {
+      position: absolute;
+      top: 190px;
+      left: 20px;
+      z-index: 2;
+    }
+
+    .arrow {
+      position: absolute;
+      z-index: 3;
+      left: 260px;
+      top: 345px;
+    }
+
+    .submit-link {
+      position: absolute;
+      z-index: 3;
+      left: 280px;
+      top: 440px;
+    }
+  }
+}
+
+.girls {
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 79px;
+
+  .name {
+    font-family: Soyuz-Grotesk, sans-serif;
+    font-weight: 700;
+    font-size: 140px;
+    line-height: 134.82px;
+    letter-spacing: 1px;
+  }
+
+  .description {
+    font-size: 24px;
+    line-height: 31.48px;
+    letter-spacing: -1px;
+    color: #FFFFFF;
+  }
+
+  .first {
+    position: relative;
+    display: flex;
+
+    .photo-nastya {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .text {
+      display: flex;
+      flex-direction: column;
+      margin-left: 564px;
+
+      .name-nastya {
+        color: var(--purple);
+        margin: 55px 0 10px;
+      }
+    }
+  }
+
+  .second {
+    position: relative;
+    display: flex;
+
+    .photo-vika {
+      position: absolute;
+      top: -35px;
+      right: 0;
+    }
+
+    .text {
+      display: flex;
+      flex-direction: column;
+      margin-left: 114px;
+      margin-bottom: 65px;
+
+      .name-vika {
+        color: var(--orange);
+        margin: 0 0 10px;
+      }
+    }
+  }
+
+  .third {
+    position: relative;
+    display: flex;
+
+    .photo-katya {
+      position: absolute;
+      top: 25px;
+      left: 0;
+    }
+
+    .text {
+      display: flex;
+      flex-direction: column;
+      margin-left: 564px;
+
+      .name-katya {
+        color: var(--purple);
+        margin: 0 0 10px;
+      }
+    }
+  }
+}
+
+.we-will-help-you-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: -79px;
+
+  .we-will-help-you {
+    font-family: Soyuz-Grotesk, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 48.15px;
+    letter-spacing: 1px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+}
