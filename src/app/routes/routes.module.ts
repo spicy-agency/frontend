@@ -8,6 +8,7 @@ import {MainPageComponent} from './main-page/main-page.component';
 import {CasesComponent} from './cases/cases.component';
 import {ServicesComponent} from './services/services.component';
 import {AboutUsComponent} from './about-us/about-us.component';
+import {ContactsComponent} from './contacts/contacts.component';
 
 const routes: Routes = [
   {
@@ -21,6 +22,7 @@ const routes: Routes = [
       {
         path: 'cases',
         component: CasesComponent,
+        children: [],
       },
       {
         path: 'services',
@@ -29,6 +31,10 @@ const routes: Routes = [
       {
         path: 'about-us',
         component: AboutUsComponent,
+      },
+      {
+        path: 'contacts',
+        component: ContactsComponent,
       },
       {
         path: '**',
@@ -41,7 +47,7 @@ const routes: Routes = [
 @NgModule({
   imports: [
     SharedModule,
-    RouterModule.forRoot(routes),
+    RouterModule.forRoot(routes, {anchorScrolling: 'enabled'}),
     CommonModule,
     BrowserModule,
   ],
@@ -50,6 +56,7 @@ const routes: Routes = [
     CasesComponent,
     ServicesComponent,
     AboutUsComponent,
+    ContactsComponent,
   ],
   exports: [
     RouterModule,
