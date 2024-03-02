@@ -8,6 +8,7 @@ import {MainPageComponent} from './main-page/main-page.component';
 import {CasesComponent} from './cases/cases.component';
 import {ServicesComponent} from './services/services.component';
 import {AboutUsComponent} from './about-us/about-us.component';
+import {ContactsComponent} from './contacts/contacts.component';
 
 const routes: Routes = [
   {
@@ -31,6 +32,10 @@ const routes: Routes = [
         component: AboutUsComponent,
       },
       {
+        path: 'contacts',
+        component: ContactsComponent,
+      },
+      {
         path: '**',
         redirectTo: '',
       }
@@ -50,6 +55,7 @@ const routes: Routes = [
     CasesComponent,
     ServicesComponent,
     AboutUsComponent,
+    ContactsComponent,
   ],
   exports: [
     RouterModule,

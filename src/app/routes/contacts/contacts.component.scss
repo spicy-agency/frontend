@@ -1,0 +1,128 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+
+  .contacts-header {
+    display: flex;
+    margin: 64px auto 0;
+
+    span {
+      position: relative;
+      font-family: Soyuz-Grotesk, sans-serif;
+      font-weight: 700;
+      font-size: 50px;
+      line-height: 48.15px;
+      letter-spacing: 1px;
+      color: #FFFFFF;
+
+      &:not(:last-child) {
+        margin-right: 50px;
+      }
+
+      &:not(:last-child):after {
+        content: '|';
+        position: absolute;
+        right: -25px;
+      }
+    }
+  }
+
+  .text-and-pictures {
+    position: relative;
+    display: flex;
+    margin: 0 0 0 75px;
+
+    .text {
+      position: relative;
+      z-index: 2;
+      display: flex;
+      flex-direction: column;
+      margin: 39px 0 72px;
+
+      .description {
+        font-size: 24px;
+        line-height: 29.05px;
+        color: #FFFFFF;
+
+        a {
+          text-decoration: none;
+          color: var(--orange);
+        }
+      }
+
+      .submit-link {
+        margin: 40px 0;
+      }
+
+      .juridical-address {
+        font-size: 14px;
+        line-height: 16.94px;
+        color: #F6F6F6;
+      }
+    }
+
+    .pictures {
+      position: absolute;
+      top: 95px;
+      left: 541px;
+      z-index: 1;
+
+      .laptop-girls {
+        position: absolute;
+        top: -122px;
+        left: -78px;
+        z-index: 1;
+        width: 705px;
+        height: 634px;
+      }
+
+      .arrow {
+        position: absolute;
+        top: 165px;
+        left: -85px;
+        z-index: 2;
+        transform: rotate(30deg);
+      }
+
+      .social-media-links {
+        position: absolute;
+        top: 300px;
+        left: -45px;
+        z-index: 2;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 30px;
+        width: 273px;
+        height: 80px;
+        border-radius: 10px;
+        background: rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(30px);
+
+        .link-item {
+          position: relative;
+          width: 52.3px;
+          height: 52.3px;
+          list-style: none;
+
+          .link {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &:hover {
+              svg path {
+                fill: #FF7840;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
