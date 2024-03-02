@@ -31,7 +31,7 @@
 <section class="cases">
   <div class="description">
     <p class="text">Мы считаем, что новый мир значительно расширил<br/>возможности для общения с людьми и развития<br/>бизнеса. Проекты, которые имеют реальное влияние,<br/>такие как платформа цифрового обучения, которую<br/>мы развивали для Innodom в Instagram и TikTok;<br/>развитие бренда PetLab, который позволил завоевать<br/>сердца владельцев различных домашних питомцев,<br/>и цифровая стратегия, которая помогла собрать<br/>амбициозных и креативных людей на одной площадке</p>
-    <a class="all-cases-link" href="#">Все кейсы →</a>
+    <a class="all-cases-link" [routerLink]="'cases'" >Все кейсы →</a>
   </div>
   <ul class="case-list">
     <li class="case-item" *ngFor="let tile of tiles.slice(0, 3)">

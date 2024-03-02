@@ -22,6 +22,7 @@ const routes: Routes = [
       {
         path: 'cases',
         component: CasesComponent,
+        children: [],
       },
       {
         path: 'services',
@@ -46,7 +47,7 @@ const routes: Routes = [
 @NgModule({
   imports: [
     SharedModule,
-    RouterModule.forRoot(routes),
+    RouterModule.forRoot(routes, {anchorScrolling: 'enabled'}),
     CommonModule,
     BrowserModule,
   ],
