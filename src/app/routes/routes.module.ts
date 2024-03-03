@@ -18,23 +18,27 @@ const routes: Routes = [
       {
         path: '',
         component: MainPageComponent,
+        data: {title: 'Spicy Agency'},
       },
       {
         path: 'cases',
-        component: CasesComponent,
-        children: [],
+        loadChildren: () => import('./cases/cases.module').then(m => m.CasesModule),
+        data: {title: 'Кейсы'},
       },
       {
         path: 'services',
         component: ServicesComponent,
+        data: {title: 'Услуги'},
       },
       {
         path: 'about-us',
         component: AboutUsComponent,
+        data: {title: 'О нас'},
       },
       {
         path: 'contacts',
         component: ContactsComponent,
+        data: {title: 'Контакты'},
       },
       {
         path: '**',

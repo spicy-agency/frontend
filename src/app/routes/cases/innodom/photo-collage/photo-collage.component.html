@@ -1,0 +1,27 @@
+<ul class="photos-list">
+  <li class="main-photo-item">
+    <img class="main-photo"
+         [src]="photos[0].src"
+         [alt]="photos[0].alt"
+         [width]="photos[0].width"
+         [height]="photos[0].height">
+  </li>
+  <div class="photo-row">
+    <li class="photo-item" *ngFor="let photo of photos.slice(1, 5)">
+      <img class="photo"
+           [src]="photo.src"
+           [alt]="photo.alt"
+           [width]="photo.width"
+           [height]="photo.height">
+    </li>
+  </div>
+  <div class="photo-row">
+    <li class="photo-item" *ngFor="let photo of photos.slice(5)">
+      <img class="photo"
+           [src]="photo.src"
+           [alt]="photo.alt"
+           [width]="photo.width"
+           [height]="photo.height">
+    </li>
+  </div>
+</ul>

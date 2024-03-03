@@ -1,0 +1,259 @@
+.section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  .innodom {
+    position: relative;
+    margin-left: 9px;
+    font-family: Soyuz-Grotesk, sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 96.3px;
+    letter-spacing: 1px;
+    color: var(--text-white);
+
+    span {
+      position: absolute;
+      top: 100px;
+      left: 152px;
+      font-family: Inter, sans-serif;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 29.05px;
+    }
+  }
+
+  .section-header {
+    font-family: Soyuz-Grotesk, sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 57.78px;
+    letter-spacing: 1px;
+  }
+
+  .section-description,
+  .section-achievements {
+    font-size: 24px;
+    line-height: 31.49px;
+    color: var(--text-white);
+  }
+}
+
+.account-start-from-scratch-section {
+  margin: 48px 0 60px 75px;
+
+  .account-start-from-scratch {
+    margin: 95px 0 16px;
+    color: var(--orange);
+  }
+
+  .description {
+  }
+
+  .picture {
+    position: absolute;
+    top: 7px;
+    left: 693px;
+    width: 474px;
+    height: 543px;
+  }
+}
+
+.ugc-content-creation-section {
+  margin: 0 0 50px 75px;
+
+  .ugc-content-creation {
+    margin: -18px 0 20px 512px;
+    color: var(--purple);
+  }
+
+  .description {
+    margin: 0 0 0 512px;
+  }
+
+  .picture {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 463px;
+    height: 377px;
+  }
+}
+
+.additional-pages-declaration-section {
+  margin: 0 0 42px 75px;
+
+  .additional-pages-declaration {
+    margin: 0 0 16px 0;
+    color: var(--orange);
+  }
+
+  .picture {
+    position: absolute;
+    top: 112px;
+    left: 528px;
+    width: 621px;
+    height: 383px;
+  }
+}
+
+.tik-tok-account-development-section {
+  margin: 0 0 44px 75px;
+
+  .tik-tok-account-development {
+    margin: -18px 0 20px 512px;
+    color: var(--purple);
+  }
+
+  .description {
+    margin: 0 0 64px 512px;
+  }
+
+  .pictures {
+    position: absolute;
+    top: 0;
+    left: 25px;
+
+    .tt-1 {
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      width: 165px;
+      height: 337px;
+    }
+
+    .tt-2 {
+      position: absolute;
+      top: 49px;
+      left: 136px;
+      z-index: 2;
+      width: 165px;
+      height: 337px;
+    }
+
+    .tt-3 {
+      position: absolute;
+      top: 0;
+      left: 266px;
+      z-index: 3;
+      width: 165px;
+      height: 337px;
+    }
+  }
+
+  .tik-tok-analysis-list {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+    .list-item {
+      display: flex;
+      flex-direction: column;
+
+      &:not(:last-of-type) {
+        margin-right: 36px;
+      }
+
+      .list-item-picture {
+        margin-bottom: 16px;
+        width: 292px;
+        height: 236px;
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px -5px #FF4C00;
+      }
+
+      .analysis-description {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 39.35px;
+        letter-spacing: -1px;
+        text-align: center;
+        color: #FFFFFF;
+
+        span {
+          font-weight: 600;
+          font-style: italic;
+        }
+      }
+    }
+  }
+}
+
+.open-doors-day-section {
+  margin: 0 0 45px 75px;
+
+  .open-doors-day {
+    margin: -18px 0 20px 0;
+    color: var(--orange);
+  }
+
+  .description {
+    span {
+      color: var(--orange);
+    }
+  }
+
+  .achievements-list {
+    margin: 0 0 0 37px;
+  }
+
+  .photo-collage {
+    position: absolute;
+    top: 0;
+    right: 75px;
+  }
+}
+
+.digital-conference-section {
+  margin: 0 0 95px 75px;
+
+  .digital-conference {
+    margin: -8px 0 20px 512px;
+    color: var(--purple);
+  }
+
+  .description {
+    margin: 0 0 0 512px;
+
+    span {
+      color: var(--purple);
+    }
+  }
+
+  .achievements-list {
+    margin: 0 0 0 549px;
+  }
+
+  .photo-collage {
+    position: absolute;
+    top: 0;
+    left: 9px;
+  }
+}
+
+.workshop-for-designers-section {
+  margin: 0 0 87px 75px;
+
+  .workshop-for-designers {
+    margin: -18px 0 20px;
+    color: var(--orange);
+  }
+
+  .description {
+    span {
+      color: var(--orange);
+    }
+  }
+
+  .achievements-list {
+    margin: 0 0 0 37px;
+  }
+
+  .photo-collage {
+    position: absolute;
+    top: 0;
+    right: 75px;
+  }
+}

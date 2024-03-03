@@ -6,7 +6,7 @@ export const tiles: CaseTileModel[] = [
     src: 'assets/images/tiles/innodom.png',
     alt: 'innodom',
     description: 'innodom - разработка<br/>фирменного стиля',
-    link: '#',
+    link: '/cases/innodom',
   },
   {
     id: 'petlab',
