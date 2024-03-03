@@ -45,7 +45,7 @@
       .how-find-us {
         font-size: 12px;
         line-height: 14.52px;
-        color: #F6F6F6;
+        color: var(--text-white);
         text-decoration: none;
 
         &:hover {
@@ -151,7 +151,7 @@
       font-weight: 600;
       font-size: 40px;
       line-height: 48.41px;
-      color: #F6F6F6;
+      color: var(--text-white);
       margin-bottom: 8px;
     }
 
@@ -160,7 +160,7 @@
     .phone-and-email {
       font-size: 14px;
       line-height: 16.94px;
-      color: #F6F6F6;
+      color: var(--text-white);
     }
 
     .juridical-info,
@@ -170,7 +170,7 @@
 
     .phone-and-email {
       a {
-        color: #F6F6F6;
+        color: var(--text-white);
         text-decoration: none;
 
         &:hover {

@@ -1,0 +1,36 @@
+.photos-list {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+
+  .main-photo-item {
+    margin-bottom: 16px;
+
+    .main-photo {
+      width: 468px;
+      height: 313px;
+      border-radius: 10px;
+    }
+  }
+
+  .photo-row {
+    display: flex;
+    padding: 0 10px;
+
+    &:not(:last-of-type) {
+      margin-bottom: 8px;
+    }
+
+    .photo-item {
+      &:not(:last-of-type) {
+        margin-right: 8px;
+      }
+
+      .photo {
+        width: 106px;
+        height: 71px;
+        border-radius: 2px;
+      }
+    }
+  }
+}
