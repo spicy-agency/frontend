@@ -13,7 +13,7 @@ export const tiles: CaseTileModel[] = [
     src: 'assets/images/tiles/petlab.png',
     alt: 'Petlab',
     description: 'petlab - привлечение<br/>экспертов к бренду',
-    link: '#',
+    link: '/cases/petlab',
   },
   {
     id: 'kub',
