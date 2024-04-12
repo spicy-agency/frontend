@@ -5,6 +5,7 @@ import {CasesComponent} from './cases.component';
 import {SharedModule} from '../../shared/shared.module';
 import {PhotoCollageComponent} from './innodom/photo-collage/photo-collage.component';
 import {PetlabComponent} from './petlab/petlab.component';
+import {DevplaceComponent} from './devplace/devplace.component';
 
 const routes: Routes = [
   {
@@ -18,6 +19,10 @@ const routes: Routes = [
   {
     path: 'petlab',
     component: PetlabComponent,
+  },
+  {
+    path: 'devplace',
+    component: DevplaceComponent,
   },
   {
     path: '**',
@@ -34,6 +39,7 @@ const routes: Routes = [
     InnodomComponent,
     PhotoCollageComponent,
     PetlabComponent,
+    DevplaceComponent,
   ],
   exports: [
     RouterModule,

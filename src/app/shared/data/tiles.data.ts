@@ -27,7 +27,7 @@ export const tiles: CaseTileModel[] = [
     src: 'assets/images/tiles/gusarov.png',
     alt: 'Gusarov',
     description: 'gusarov - увеличение<br/>конверсий и привлечение<br/>нового трафика',
-    link: '#',
+    link: '',
   },
   {
     id: 'spoon-in-palm',
@@ -62,7 +62,7 @@ export const tiles: CaseTileModel[] = [
     src: 'assets/images/tiles/dev-place.png',
     alt: 'Dev Place',
     description: 'DevPlace — доступные и<br/>открытые it-курсы',
-    link: '#',
+    link: '/cases/devplace',
   },
   {
     id: 'visa-global',
