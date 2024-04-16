@@ -1,0 +1,132 @@
+.section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  .devplace {
+    position: relative;
+    margin-left: 9px;
+    font-family: Soyuz-Grotesk, sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 96.3px;
+    letter-spacing: 1px;
+    color: var(--text-white);
+
+    span {
+      position: absolute;
+      top: 100px;
+      left: 152px;
+      font-family: Inter, sans-serif;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 29.05px;
+    }
+  }
+
+  .section-header {
+    font-family: Soyuz-Grotesk, sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 57.78px;
+    letter-spacing: 1px;
+  }
+
+  .section-description,
+  .section-achievements {
+    font-size: 24px;
+    line-height: 31.49px;
+    color: var(--text-white);
+  }
+}
+
+.account-start-from-scratch-section {
+  margin: 48px 0 60px 75px;
+
+  .account-start-from-scratch {
+    margin: 95px 0 16px;
+    color: var(--orange);
+  }
+
+  .description {
+  }
+
+  .picture {
+    position: absolute;
+    top: 7px;
+    left: 693px;
+    width: 475px;
+    height: 554px;
+  }
+}
+
+.site-design-development-from-scratch-section {
+  margin: 0 0 21px 75px;
+
+  .site-design-development-from-scratch {
+    margin: -18px 0 20px 481px;
+    color: var(--purple);
+  }
+
+  .description {
+    margin: 0 0 0 481px;
+  }
+
+  .picture {
+    position: absolute;
+    top: 0;
+    left: -23px;
+    width: 491px;
+    height: 473px;
+  }
+}
+
+.advertisement-creatives-creation-section {
+  margin: 0 0 57px 75px;
+
+  .advertisement-creatives-creation {
+    margin: 0 0 16px 0;
+    color: var(--orange);
+  }
+
+  .picture {
+    position: absolute;
+    top: -46px;
+    left: 654px;
+    width: 527px;
+    height: 454px;
+  }
+}
+
+.logotype-development-section {
+  margin: 0 0 36px 75px;
+
+  .logotype-development {
+    margin: -18px 0 20px 490px;
+    color: var(--purple);
+  }
+
+  .description {
+    margin: 0 0 0 490px;
+  }
+
+  .picture {
+    position: absolute;
+    top: 22px;
+    left: 47px;
+    width: 250px;
+    height: 250px;
+    transform: rotate(-8.03deg);
+    border-radius: 20px;
+    box-shadow: 0 4px 15px -5px #FF4C00;
+  }
+
+  .arrow {
+    position: absolute;
+    top: 66px;
+    left: 309px;
+    width: 128px;
+    height: 90px;
+    transform: rotate(8.03deg);
+  }
+}
