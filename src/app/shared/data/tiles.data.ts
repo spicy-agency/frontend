@@ -20,7 +20,7 @@ export const tiles: CaseTileModel[] = [
     src: 'assets/images/tiles/kub.png',
     alt: 'КУБ',
     description: 'упор на контент - создание<br/>фото- и видеоконтента<br/>для трех аккаунтов',
-    link: '#',
+    link: '/cases/cube',
   },
   {
     id: 'gusarov',

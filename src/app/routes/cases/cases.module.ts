@@ -6,6 +6,7 @@ import {SharedModule} from '../../shared/shared.module';
 import {PhotoCollageComponent} from './innodom/photo-collage/photo-collage.component';
 import {PetlabComponent} from './petlab/petlab.component';
 import {DevplaceComponent} from './devplace/devplace.component';
+import {CubeComponent} from './cube/cube.component';
 
 const routes: Routes = [
   {
@@ -25,6 +26,10 @@ const routes: Routes = [
     component: DevplaceComponent,
   },
   {
+    path: 'cube',
+    component: CubeComponent,
+  },
+  {
     path: '**',
     redirectTo: '',
   },
@@ -40,6 +45,7 @@ const routes: Routes = [
     PhotoCollageComponent,
     PetlabComponent,
     DevplaceComponent,
+    CubeComponent,
   ],
   exports: [
     RouterModule,
