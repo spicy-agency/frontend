@@ -10,6 +10,7 @@ import {CubeComponent} from './cube/cube.component';
 import {GoldenSharkComponent} from './golden-shark/golden-shark.component';
 import {StationComponent} from './station/station.component';
 import {VisaGlobalComponent} from './visa-global/visa-global.component';
+import {OveroneComponent} from './overone/overone.component';
 
 const routes: Routes = [
   {
@@ -45,6 +46,10 @@ const routes: Routes = [
     component: VisaGlobalComponent,
   },
   {
+    path: 'overone',
+    component: OveroneComponent,
+  },
+  {
     path: '**',
     redirectTo: '',
   },
@@ -64,6 +69,7 @@ const routes: Routes = [
     GoldenSharkComponent,
     StationComponent,
     VisaGlobalComponent,
+    OveroneComponent,
   ],
   exports: [
     RouterModule,

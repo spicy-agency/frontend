@@ -55,7 +55,7 @@ export const tiles: CaseTileModel[] = [
     src: 'assets/images/tiles/overone.png',
     alt: 'Overone',
     description: 'IT OVERone - захват рынка<br/>it-образования',
-    link: '#',
+    link: '/cases/overone',
   },
   {
     id: 'dev-place',
