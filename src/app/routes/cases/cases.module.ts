@@ -7,6 +7,7 @@ import {PhotoCollageComponent} from './innodom/photo-collage/photo-collage.compo
 import {PetlabComponent} from './petlab/petlab.component';
 import {DevplaceComponent} from './devplace/devplace.component';
 import {CubeComponent} from './cube/cube.component';
+import {GoldenSharkComponent} from './golden-shark/golden-shark.component';
 
 const routes: Routes = [
   {
@@ -30,6 +31,10 @@ const routes: Routes = [
     component: CubeComponent,
   },
   {
+    path: 'golden-shark',
+    component: GoldenSharkComponent,
+  },
+  {
     path: '**',
     redirectTo: '',
   },
@@ -46,6 +51,7 @@ const routes: Routes = [
     PetlabComponent,
     DevplaceComponent,
     CubeComponent,
+    GoldenSharkComponent,
   ],
   exports: [
     RouterModule,

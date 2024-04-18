@@ -48,7 +48,7 @@ export const tiles: CaseTileModel[] = [
     src: 'assets/images/tiles/golden-shark.png',
     alt: 'Золотая акула',
     description: 'золотая акула - ребрендинг<br/>и стратегия',
-    link: '#',
+    link: '/cases/golden-shark',
   },
   {
     id: 'overone',

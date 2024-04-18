@@ -1,0 +1,116 @@
+.section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  .golden-shark {
+    position: relative;
+    margin-left: 9px;
+    font-family: Soyuz-Grotesk, sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 96.3px;
+    letter-spacing: 1px;
+    color: var(--text-white);
+
+    span {
+      position: absolute;
+      top: 100px;
+      left: 152px;
+      font-family: Inter, sans-serif;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 29.05px;
+    }
+  }
+
+  .section-header {
+    font-family: Soyuz-Grotesk, sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 57.78px;
+    letter-spacing: 1px;
+  }
+
+  .section-description,
+  .section-achievements {
+    font-size: 24px;
+    line-height: 31.49px;
+    color: var(--text-white);
+  }
+}
+
+.account-start-from-scratch-section {
+  margin: 48px 0 14px 75px;
+
+  .account-start-from-scratch {
+    margin: 95px 0 16px;
+    color: var(--orange);
+  }
+
+  .description {
+  }
+
+  .picture {
+    position: absolute;
+    top: 7px;
+    left: 695px;
+    width: 475px;
+    height: 554px;
+  }
+}
+
+.organic-promotion-with-tiktok-section {
+  margin: 0 0 33px 75px;
+
+  .organic-promotion-with-tiktok {
+    margin: 10px 0 20px 512px;
+    color: var(--purple);
+  }
+
+  .description {
+    margin: 0 0 0 512px;
+  }
+
+  .picture {
+    position: absolute;
+    top: 0;
+    left: 23px;
+    width: 475px;
+    height: 519px;
+  }
+}
+
+.logotype-redesign-section {
+  margin: 0 0 42px 75px;
+
+  .logotype-redesign {
+    margin: 0 0 16px 0;
+    color: var(--orange);
+  }
+
+  .logotype-wrapper {
+    position: absolute;
+    left: 625px;
+
+    .old {
+      position: absolute;
+      top: -40px;
+      left: 0;
+      border-radius: 20px;
+    }
+
+    .new {
+      position: absolute;
+      top: 103px;
+      left: 159px;
+      border-radius: 20px;
+    }
+
+    .arrow {
+      position: absolute;
+      top: 25px;
+      left: 325px;
+    }
+  }
+}
