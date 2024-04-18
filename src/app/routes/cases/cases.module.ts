@@ -9,6 +9,7 @@ import {DevplaceComponent} from './devplace/devplace.component';
 import {CubeComponent} from './cube/cube.component';
 import {GoldenSharkComponent} from './golden-shark/golden-shark.component';
 import {StationComponent} from './station/station.component';
+import {VisaGlobalComponent} from './visa-global/visa-global.component';
 
 const routes: Routes = [
   {
@@ -40,6 +41,10 @@ const routes: Routes = [
     component: StationComponent,
   },
   {
+    path: 'visa-global',
+    component: VisaGlobalComponent,
+  },
+  {
     path: '**',
     redirectTo: '',
   },
@@ -58,6 +63,7 @@ const routes: Routes = [
     CubeComponent,
     GoldenSharkComponent,
     StationComponent,
+    VisaGlobalComponent,
   ],
   exports: [
     RouterModule,

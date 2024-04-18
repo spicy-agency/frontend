@@ -69,7 +69,7 @@ export const tiles: CaseTileModel[] = [
     src: 'assets/images/tiles/visa-global.png',
     alt: 'Visa Global',
     description: 'visa global — доработка<br/>фирменного стиля и<br/>развитие комьюнити',
-    link: '#',
+    link: '/cases/visa-global',
   },
   {
     id: 'santa',
