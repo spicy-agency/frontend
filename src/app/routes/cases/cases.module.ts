@@ -8,6 +8,7 @@ import {PetlabComponent} from './petlab/petlab.component';
 import {DevplaceComponent} from './devplace/devplace.component';
 import {CubeComponent} from './cube/cube.component';
 import {GoldenSharkComponent} from './golden-shark/golden-shark.component';
+import {StationComponent} from './station/station.component';
 
 const routes: Routes = [
   {
@@ -35,6 +36,10 @@ const routes: Routes = [
     component: GoldenSharkComponent,
   },
   {
+    path: 'station',
+    component: StationComponent,
+  },
+  {
     path: '**',
     redirectTo: '',
   },
@@ -52,6 +57,7 @@ const routes: Routes = [
     DevplaceComponent,
     CubeComponent,
     GoldenSharkComponent,
+    StationComponent,
   ],
   exports: [
     RouterModule,

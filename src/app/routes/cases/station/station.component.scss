@@ -1,0 +1,131 @@
+.section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  .it-station {
+    position: relative;
+    margin-left: 9px;
+    font-family: Soyuz-Grotesk, sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 96.3px;
+    letter-spacing: 1px;
+    color: var(--text-white);
+
+    span {
+      position: absolute;
+      top: 100px;
+      left: 85px;
+      font-family: Inter, sans-serif;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 29.05px;
+    }
+  }
+
+  .section-header {
+    font-family: Soyuz-Grotesk, sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 57.78px;
+    letter-spacing: 1px;
+  }
+
+  .section-description,
+  .section-achievements {
+    font-size: 24px;
+    line-height: 31.49px;
+    color: var(--text-white);
+  }
+}
+
+.account-start-from-scratch-section {
+  margin: 48px 0 33px 75px;
+
+  .account-start-from-scratch {
+    margin: 95px 0 16px;
+    color: var(--orange);
+  }
+
+  .description {
+  }
+
+  .picture {
+    position: absolute;
+    top: 20px;
+    left: 720px;
+    width: 480px;
+    height: 558px;
+  }
+}
+
+.site-design-development-from-scratch-section {
+  margin: 0 0 50px 75px;
+
+  .site-design-development-from-scratch {
+    margin: -18px 0 20px 490px;
+    color: var(--purple);
+  }
+
+  .description {
+    margin: 0 0 0 490px;
+  }
+
+  .picture {
+    position: absolute;
+    top: 0;
+    left: -14px;
+    width: 491px;
+    height: 473px;
+  }
+}
+
+.forming-advertisement-creatives-section {
+  margin: 0 0 57px 75px;
+
+  .forming-advertisement-creatives {
+    margin: 0 0 16px 0;
+    color: var(--orange);
+  }
+
+  .picture {
+    position: absolute;
+    top: -10px;
+    left: 695px;
+    width: 424px;
+    height: 414px;
+  }
+}
+
+.logotype-development-section {
+  margin: 0 0 36px 75px;
+
+  .logotype-development {
+    margin: -18px 0 20px 490px;
+    color: var(--purple);
+  }
+
+  .description {
+    margin: 0 0 0 490px;
+  }
+
+  .logotype-wrapper {
+    position: absolute;
+    top: 0;
+    left: 63px;
+
+    .logo {
+      position: absolute;
+      top: 85px;
+      left: -25px;
+    }
+
+    .arrow {
+      position: absolute;
+      top: 19px;
+      left: 260px;
+    }
+
+  }
+}

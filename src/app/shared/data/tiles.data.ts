@@ -41,7 +41,7 @@ export const tiles: CaseTileModel[] = [
     src: 'assets/images/tiles/station.png',
     alt: 'Station',
     description: 'station - онлайн-<br/>образование с нуля',
-    link: '#',
+    link: '/cases/station',
   },
   {
     id: 'golden-shark',
