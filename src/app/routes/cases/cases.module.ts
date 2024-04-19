@@ -11,6 +11,7 @@ import {GoldenSharkComponent} from './golden-shark/golden-shark.component';
 import {StationComponent} from './station/station.component';
 import {VisaGlobalComponent} from './visa-global/visa-global.component';
 import {OveroneComponent} from './overone/overone.component';
+import {EduGusarovComponent} from './edu-gusarov/edu-gusarov.component';
 
 const routes: Routes = [
   {
@@ -50,6 +51,10 @@ const routes: Routes = [
     component: OveroneComponent,
   },
   {
+    path: 'edu-gusarov',
+    component: EduGusarovComponent,
+  },
+  {
     path: '**',
     redirectTo: '',
   },
@@ -70,6 +75,7 @@ const routes: Routes = [
     StationComponent,
     VisaGlobalComponent,
     OveroneComponent,
+    EduGusarovComponent,
   ],
   exports: [
     RouterModule,

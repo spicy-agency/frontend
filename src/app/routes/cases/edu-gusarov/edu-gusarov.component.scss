@@ -1,0 +1,103 @@
+.section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  .edugusarov {
+    position: relative;
+    margin-left: 9px;
+    font-family: Soyuz-Grotesk, sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 96.3px;
+    letter-spacing: 1px;
+    color: var(--text-white);
+
+    span {
+      position: absolute;
+      top: 115px;
+      left: 105px;
+      font-family: Inter, sans-serif;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 29.05px;
+    }
+  }
+
+  .section-header {
+    font-family: Soyuz-Grotesk, sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 57.78px;
+    letter-spacing: 1px;
+  }
+
+  .section-description,
+  .section-achievements {
+    font-size: 24px;
+    line-height: 31.49px;
+    color: var(--text-white);
+  }
+}
+
+.forming-advertisement-creatives-section {
+  margin: 48px 0 79px 75px;
+
+  .forming-advertisement-creatives {
+    margin: 100px 0 16px;
+    color: var(--orange);
+  }
+
+  .description {
+  }
+
+  .picture {
+    position: absolute;
+    top: 0;
+    left: 690px;
+    width: 505px;
+    height: 617px;
+  }
+}
+
+.check-lists-as-lead-magnet-creation-section {
+  margin: 0 0 69px 75px;
+
+  .check-lists-as-lead-magnet-creation {
+    margin: -18px 0 20px 474px;
+    color: var(--purple);
+  }
+
+  .description {
+    margin: 0 0 0 474px;
+  }
+
+  .picture {
+    position: absolute;
+    top: 0;
+    left: -80px;
+    width: 587px;
+    height: 462px;
+    z-index: -1;
+  }
+}
+
+.advertisement-landings-development-section {
+  margin: 0 0 43px 75px;
+
+  .advertisement-landings-development {
+    margin: 0 0 16px;
+    color: var(--orange);
+  }
+
+  .description {
+  }
+
+  .picture {
+    position: absolute;
+    top: 70px;
+    left: 619px;
+    width: 530px;
+    height: 402px;
+  }
+}
