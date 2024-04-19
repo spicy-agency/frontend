@@ -27,7 +27,7 @@ export const tiles: CaseTileModel[] = [
     src: 'assets/images/tiles/gusarov.png',
     alt: 'Gusarov',
     description: 'gusarov - увеличение<br/>конверсий и привлечение<br/>нового трафика',
-    link: '',
+    link: '/cases/edu-gusarov',
   },
   {
     id: 'spoon-in-palm',
