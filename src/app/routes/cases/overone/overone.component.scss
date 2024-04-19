@@ -1,0 +1,175 @@
+.section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  .it-overone {
+    position: relative;
+    margin-left: 9px;
+    font-family: Soyuz-Grotesk, sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 96.3px;
+    letter-spacing: 1px;
+    color: var(--text-white);
+
+    span {
+      position: absolute;
+      top: 100px;
+      left: 47px;
+      font-family: Inter, sans-serif;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 29.05px;
+    }
+  }
+
+  .section-header {
+    font-family: Soyuz-Grotesk, sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 57.78px;
+    letter-spacing: 1px;
+  }
+
+  .section-description,
+  .section-achievements {
+    font-size: 24px;
+    line-height: 31.49px;
+    color: var(--text-white);
+  }
+}
+
+.account-repack-section {
+  margin: 48px 0 13px 75px;
+
+  .account-repack {
+    margin: 95px 0 16px;
+    color: var(--orange);
+  }
+
+  .description {
+    span {
+      color: var(--orange);
+    }
+  }
+
+  .picture-wrapper {
+    position: absolute;
+    top: 0;
+    left: 735px;
+    display: flex;
+    flex-direction: column;
+
+    .picture {
+      width: 465px;
+      height: 642px;
+    }
+
+    .before-after {
+      display: flex;
+      justify-content: center;
+      margin-top: -17px;
+
+      span {
+        font-family: Soyuz-Grotesk, sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 38.52px;
+        letter-spacing: 3px;
+        color: var(--orange);
+
+        &:first-of-type {
+          margin-right: 155px;
+        }
+      }
+    }
+  }
+}
+
+.organic-promotion-with-tiktok-section {
+  margin: 0 0 50px 75px;
+
+  .organic-promotion-with-tiktok {
+    margin: 100px 0 20px 472px;
+    color: var(--purple);
+  }
+
+  .description {
+    margin: 0 0 0 472px;
+  }
+
+  .picture {
+    position: absolute;
+    top: 0;
+    left: -30px;
+    width: 467px;
+    height: 724px;
+  }
+}
+
+.creation-and-recording-videos-on-youtube-section {
+  margin: 0 0 8px 75px;
+
+  .creation-and-recording-videos-on-youtube {
+    margin: 0 0 16px 0;
+    color: var(--orange);
+  }
+
+  .picture {
+    position: absolute;
+    top: 89px;
+    left: 674px;
+    width: 481px;
+    height: 396px;
+  }
+}
+
+.event-organization-section {
+  margin: 0 0 42px 75px;
+
+  .event-organization {
+    margin: -12px 0 20px 468px;
+    color: var(--purple);
+  }
+
+  .description {
+    margin: 0 0 0 468px;
+  }
+
+  .picture {
+    position: absolute;
+    top: 0;
+    left: 46px;
+  }
+}
+
+.qr-codes-section {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 31px 0;
+
+  .qr-codes-header {
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 31.49px;
+    text-align: center;
+    margin: 0 auto 35px;
+    color: var(--orange);
+  }
+
+  .qr-codes-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+
+    .qr-code-item {
+      &:not(:last-of-type) {
+        margin: 0 49px 0 0;
+      }
+    }
+  }
+}

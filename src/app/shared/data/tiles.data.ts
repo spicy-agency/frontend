@@ -41,21 +41,21 @@ export const tiles: CaseTileModel[] = [
     src: 'assets/images/tiles/station.png',
     alt: 'Station',
     description: 'station - онлайн-<br/>образование с нуля',
-    link: '#',
+    link: '/cases/station',
   },
   {
     id: 'golden-shark',
     src: 'assets/images/tiles/golden-shark.png',
     alt: 'Золотая акула',
     description: 'золотая акула - ребрендинг<br/>и стратегия',
-    link: '#',
+    link: '/cases/golden-shark',
   },
   {
     id: 'overone',
     src: 'assets/images/tiles/overone.png',
     alt: 'Overone',
     description: 'IT OVERone - захват рынка<br/>it-образования',
-    link: '#',
+    link: '/cases/overone',
   },
   {
     id: 'dev-place',
@@ -69,7 +69,7 @@ export const tiles: CaseTileModel[] = [
     src: 'assets/images/tiles/visa-global.png',
     alt: 'Visa Global',
     description: 'visa global — доработка<br/>фирменного стиля и<br/>развитие комьюнити',
-    link: '#',
+    link: '/cases/visa-global',
   },
   {
     id: 'santa',

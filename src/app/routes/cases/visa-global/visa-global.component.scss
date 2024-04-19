@@ -1,0 +1,109 @@
+.section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+
+  .visa-global {
+    position: relative;
+    margin-left: 9px;
+    font-family: Soyuz-Grotesk, sans-serif;
+    font-weight: 700;
+    font-size: 100px;
+    line-height: 96.3px;
+    letter-spacing: 1px;
+    color: var(--text-white);
+
+    span {
+      position: absolute;
+      top: 100px;
+      left: 152px;
+      font-family: Inter, sans-serif;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 29.05px;
+    }
+  }
+
+  .section-header {
+    font-family: Soyuz-Grotesk, sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 57.78px;
+    letter-spacing: 1px;
+  }
+
+  .section-description,
+  .section-achievements {
+    font-size: 24px;
+    line-height: 31.49px;
+    color: var(--text-white);
+  }
+}
+
+.account-repack-section {
+  margin: 48px 0 28px 75px;
+
+  .account-repack {
+    margin: 95px 0 16px;
+    color: var(--orange);
+  }
+
+  .description {
+    span {
+      color: var(--orange);
+    }
+  }
+
+  .picture-wrapper {
+    position: absolute;
+    top: 0;
+    left: 704px;
+    display: flex;
+    flex-direction: column;
+
+    .picture {
+      width: 465px;
+      height: 646px;
+    }
+
+    .before-after {
+      display: flex;
+      justify-content: center;
+      margin-top: -17px;
+
+      span {
+        font-family: Soyuz-Grotesk, sans-serif;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 38.52px;
+        letter-spacing: 3px;
+        color: var(--purple);
+
+        &:first-of-type {
+          margin-right: 155px;
+        }
+      }
+    }
+  }
+}
+
+.promotion-with-reels-section {
+  margin: 0 0 29px 75px;
+
+  .promotion-with-reels {
+    margin: 75px 0 20px 498px;
+    color: var(--purple);
+  }
+
+  .description {
+    margin: 0 0 0 498px;
+  }
+
+  .picture {
+    position: absolute;
+    top: 0;
+    left: -51px;
+    width: 529px;
+    height: 639px;
+  }
+}
